@@ -1,0 +1,49 @@
+@media (max-width: 767px){
+  .slider .carousel-indicators{
+    display: none;
+  }
+  .slider{
+    height: 225px;
+  }
+  .slider .make img{
+    height: 225px;
+  }
+  .services .row{
+    height: 1050px;
+  }
+  /*start our-team*/
+  .our-team img{
+    width: 350px !important
+  }
+  /*start testmonial*/
+  .testmonial .carousel-indicators li{
+    flex: 0 0 auto
+  }
+  /*start touch*/
+  .touch .information{
+    position: static
+  }
+  /*start footer*/
+  footer .my-links ul{
+    justify-content: space-between
+  }
+  footer .my-links ul li a{
+    font-size: 14px;
+  }
+  /*=================*/
+   /*start About us*/
+  /*================*/
+  .values .col-md-4{
+    border: none;
+  }
+  .values .col-md-4:not(:last-child){
+    border: none;
+    margin-bottom: 50px
+  }
+  /*start vision and mission*/
+  .mission .title-misson{
+    margin: 0px
+  }
+}
+
+

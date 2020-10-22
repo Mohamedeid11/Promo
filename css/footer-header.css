@@ -1,0 +1,139 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+hr{border-top: 5px solid rgba(0,0,0,.1);}
+/*start upper-bar*/
+.upper-bar{
+  background: var(--main--color);
+  color: #FFF;
+  padding-top: 10px;
+}
+.upper-bar .row{
+  margin-right: 0px !important
+}
+.upper-bar .details a{
+  color: #FFF;
+  text-decoration: none;
+}
+.upper-bar .teng ul{
+  display: inline-flex;
+}
+.upper-bar .teng ul li{
+  padding-left: 20px
+}
+.upper-bar .teng ul li a{
+  color: #FFF;
+  font-size: 25px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.upper-bar .teng ul li a:hover{
+  color: var(--two--color)
+}
+/*end upper-bar*/
+/*start navbar*/
+.bg-light{
+  background-color: #FFF!important
+}
+.navbar-light .navbar-nav .nav-link{
+  padding-right: 2rem;
+  font-size: 14px;
+  font-weight: 600
+}
+.navbar-light .navbar-nav .nav-link{
+  color: var(--main--color); 
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: var(--two--color)
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color: var(--main--color);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover{
+  color: var(--two--color);
+  font-weight: bold
+}
+/*end navbar*/
+/*start footer*/
+footer{
+  background-color: var(--two--color);
+  padding: 100px 0px 40px 
+}
+footer .skop .first-lone img{
+  width: 250px;
+}
+footer .skop .first-lone p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #717171;
+  line-height: 1.8
+}
+footer .my-links ul{
+  display: flex;
+  justify-content: space-around;
+}
+footer .my-links ul li a{
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+footer .my-links ul li a:hover{
+  color: #717171;
+}
+footer .my-ico ul{
+  display: flex;
+  justify-content: space-around;
+}
+footer .my-ico ul li a .fa-facebook, .fa-instagram, .fa-twitter, .fa-snapchat{
+  color: #FFF;
+  font-size: 30px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+footer .my-ico ul li a .fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-snapchat:hover{
+  color: #717171;
+}
+footer .copyright{
+  font-size: 22px;
+  color: #FFF 
+}
+/*end footer*/
+/*start scroll-top*/
+#scroll-top{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 70px;
+  border-radius: 50%;
+  display: none
+}
+#scroll-top .fa-arrow-alt-circle-up{
+  color: var(--main--color);
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#scroll-top .fa-arrow-alt-circle-up:hover{
+  color: #FFF;
+  background: var(--main--color);
+}
